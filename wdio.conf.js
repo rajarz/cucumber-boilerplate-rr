@@ -8,9 +8,9 @@ exports.config = {
     // `wdio` from an NPM script (see https://docs.npmjs.com/cli/run-script)
     // then the current working directory is where your package.json resides, so
     // `wdio` will be called from there.
-    //
+    // './src/features/**/*.feature',
     specs: [
-        './src/features/**/*.feature',
+       './src/features/AAA_google.feature' 
     ],
     // Patterns to exclude.
     exclude: [
